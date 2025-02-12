@@ -9,6 +9,9 @@ The data is based on  10,000 compounds for each target. Each row of the data cor
 Jupyter notebook presents presentation of the dataset and 5 ML algorithms for the regression analysis with hyperparameters selection. Best hyperparameters and quality metrics for each models are the following:
 
 
+
+
+
 XGBoost Regressor :
 
 Best parameters: {'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200, 'subsample': 0.8}
@@ -18,6 +21,9 @@ MAE: 0.14570767305734436
 MSE: 0.0912853515488276
 
 R²: 0.9999352216709442
+
+
+
 
 
 
@@ -35,6 +41,9 @@ R²: 0.9999538813176608
 
 
 
+
+
+
 LGBM (without hyperparameters fitting):
 
 MAE: 0.17809273457184246
@@ -42,6 +51,9 @@ MAE: 0.17809273457184246
 MSE: 0.3221985108185801
 
 R²: 0.9997713600177798
+
+
+
 
 
 
@@ -55,6 +67,9 @@ MAE: 16.3731210025737
 MSE: 456.5259181746757
 
 R^2 Score: 0.6760379880424678 
+
+
+
 
 
 
