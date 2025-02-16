@@ -6,7 +6,7 @@ Quantitative structure−activity relationships (QSAR) is a very commonly used t
 
 The data is based on  10,000 compounds for each target. Each row of the data corresponds to a compound and contains descriptors ( D36-D1073) derived from that compound’s chemical structure. Activity between the target molecule and each compound is provided in the training data.	
 
-Jupyter notebook "Regression Analysis_Metabolomics" presents presentation of the dataset and 5 ML algorithms for the regression analysis with hyperparameters selection. Best hyperparameters and quality metrics for each models are the following:
+Jupyter notebook "Regression Analysis_Metabolomics" presents presentation of the dataset, 5 variants ML algorithms and 6 variants of NN for the regression analysis. Best hyperparameters (for ML algorithms) and quality metrics for each models are the following:
 
 
 
@@ -84,3 +84,71 @@ MAE: 17.4338646220917
 MSE: 479.0379982297341
 
 R^2 Score: 0.6600628627371061
+
+
+
+
+
+
+Fully Connected Neural Network (FCNN)
+
+MAE: 17.298748016357422
+
+
+
+
+
+
+
+
+CNN:
+
+MAE:15.225408554077148
+
+
+
+
+
+
+
+Simple RNN:
+
+MAE:29.74211883544922
+
+
+
+
+
+
+
+
+RNN with LTSM layer:
+
+MAE:32.90420150756836
+
+
+
+
+
+
+
+
+RNN with GRU layer:
+
+MAE:32.48203659057617
+
+
+
+
+
+
+
+
+
+
+RNN with both LTSM and GRU layers:
+
+MAE: 29.758331298828125
+
+
+
