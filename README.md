@@ -1,4 +1,4 @@
-# Metabolism_activity_Regression_ML
+# Metabolism_activity_Regression_ML&NN
 
 Dataset METAB_training_disguised.csv is taken from https://www.kaggle.com/datasets/vivek153/data-root?select=METAB_training_disguised.csv (QSAR-data for Drug Discovery).
 
