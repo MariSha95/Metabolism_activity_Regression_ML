@@ -4,7 +4,7 @@ Dataset METAB_training_disguised.csv is taken from https://www.kaggle.com/datase
 
 Quantitative structure−activity relationships (QSAR) is a very commonly used technique in the pharmaceutical industry for predicting on-target and off-target activities. Such predictions help prioritize the experiments during the drug discovery process and, it is hoped, will substantially reduce the experimental work that needs to be done.
 
-The data is based on  10,000 compounds for each target. Each row of the data corresponds to a compound and contains descriptors ( D36-D1073) derived from that compound’s chemical structure. Activity between the target molecule and each compound is provided in the training data.	
+The data is based on  10,000 compounds for each target. Each row of the data corresponds to a compound and contains descriptors ( D36-D10763) derived from that compound’s chemical structure. Activity between the target molecule and each compound is provided in the training data.	
 
 Jupyter notebook "Regression Analysis_Metabolomics" presents presentation of the dataset, 5 variants ML algorithms and 6 variants of NN for the regression analysis. Best hyperparameters (for ML algorithms) and quality metrics for each models are the following:
 
